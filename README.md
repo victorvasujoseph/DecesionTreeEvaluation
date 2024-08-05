@@ -14,6 +14,8 @@ To evaluate overfitting of decision trees in scikit-learn using the max_depth pa
 7.  Training Models: Train decision tree models with different max_depth values and track the accuracy on training and test sets.
 8.  Plotting Results: Plot the accuracies to visualize overfitting and underfitting.
 
+<img src="images/1.png" alt="My Image" width="700"/>
+
 # Result
 
 Based on the provided plot showing the accuracy of the decision tree model on the training and test sets for varying max_depth, we can draw the following conclusions:
