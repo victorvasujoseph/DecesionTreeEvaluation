@@ -41,14 +41,15 @@ Interestingly, the training accuracy does not increase significantly with deeper
 **Pruning:** To avoid potential overfitting, especially in larger datasets, it might be beneficial to implement pruning techniques that stop the tree from growing beyond a certain depth.
 
 **Regularization:** Consider using regularization parameters like min_samples_split or min_samples_leaf to control the growth of the tree further and maintain its generalization capabilities.
-Validation:
 
-Regularly validate the model using cross-validation to ensure that the selected depth generalizes well across different data splits.
+**Validation:** Regularly validate the model using cross-validation to ensure that the selected depth generalizes well across different data splits.
 
 ## Recommendations:
 
 **Select Optimal Depth:** Based on the plot, a max depth of around 5 seems optimal for this dataset. This depth balances training and test accuracies effectively without overfitting.
+
 **Monitor Performance:** Keep track of model performance over time and re-evaluate if new data is introduced or if the data distribution changes.
+
 **Experiment with Hyperparameters:** Experiment with other hyperparameters and techniques to enhance model performance, such as using ensemble methods like Random Forests or Gradient Boosting that can improve robustness and accuracy.
 
 By following these recommendations, you can develop a more reliable and effective decision tree model for your dataset, ensuring good performance and generalization to unseen data.
